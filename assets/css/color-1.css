@@ -47,14 +47,14 @@ h6 a {
   color: #142752 !important;
 }
 .color-blue {
-  color: #0089f3 !important;
+  color: #ffc62b !important;
 }
 /*== Sections ==*/
 .bg-white {
   background-color: #fff;
 }
 .bg-blue {
-  background-color: #0089f3;
+  background-color: #ffc62b;
 }
 .bg-dark-grey {
   background-color: #7d858c;
@@ -97,7 +97,7 @@ h6 a {
   background-color: #fff;
 }
 .dtr-page-title-wrapper {
-  background-color: #0089f3;
+  background-color: #ffc62b;
 }
 /*-- logo link --*/
 .navbar-light .navbar-brand {
@@ -120,7 +120,7 @@ h6 a {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0089f3;
+  color: #ffc62b;
 }
 /*-- nav dark --*/
 .navbar-dark .navbar-nav .nav-link {
@@ -137,12 +137,12 @@ h6 a {
 }
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: #0089f3;
+  color: #ffc62b;
   background-color: transparent;
 }
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #0089f3;
+  color: #ffc62b;
   background-color: transparent;
 }
 /*== Buttons ==*/
@@ -170,11 +170,11 @@ h6 a {
   color: inherit;
 }
 .dtr-btn:hover span {
-  background-color: #0089f3;
+  background-color: #ffc62b;
   color: #fff;
 }
 .dtr-btn-blue {
-  background-color: #0089f3;
+  background-color: #ffc62b;
   color: #fff;
 }
 /*== Video Play ==*/
@@ -189,7 +189,7 @@ h6 a {
 }
 /*== feature box ==*/
 .dtr-feature-box-icon {
-  background-color: #0089f3;
+  background-color: #ffc62b;
   color: #fff;
 }
 .dtr-feature-box:hover .dtr-feature-box-icon {
@@ -239,7 +239,7 @@ h6 a {
 }
 .dtr-sticky-tabs-nav .nav-link:hover,
 .dtr-sticky-tabs-nav .nav-link.active {
-  color: #0089f2;
+  color: #ffc62b;
 }
 /*== Accordion ==*/
 .dtr-accordion .btn.btn-link {
@@ -264,7 +264,7 @@ h6 a {
 }
 /*-- icon with circle bg --*/
 .dtr-icon-blue {
-  color: #0089f3;
+  color: #ffc62b;
 }
 .dtr-icon-blue:after {
   background-color: #c8f2fe;
@@ -372,7 +372,7 @@ input[type="search"]:focus,
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .nav-link.active {
-    color: #0089f3 !important;
+    color: #ffc62b !important;
   }
   #dtr-header-global .nav-link {
     border-top-color: #e5e5e5;
@@ -382,10 +382,10 @@ input[type="search"]:focus,
   }
   .dropdown-item:focus,
   .dropdown-item:hover {
-    color: #0089f3;
+    color: #ffc62b;
   }
   .dropdown-item.active,
   .dropdown-item:active {
-    color: #0089f3;
+    color: #ffc62b;
   }
 }
