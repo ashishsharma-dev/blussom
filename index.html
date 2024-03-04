@@ -1,0 +1,1928 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>Landing Page</title>
+    <meta name="author" content="">
+    <meta name="description" content="Landing Page">
+    <meta name="keywords"
+        content="landing, creative, works, showcase, portfolio, projects, modern, agency, freelancers">
+
+    <!-- FAVICON FILES -->
+    <link href="assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="assets/images/icons/favicon.png" rel="shortcut icon">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/iconfont.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/venobox.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/color-1.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    }
+
+    body {
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        background: #eff6fa;
+        color: #000000;
+    }
+
+    div {
+        display: block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        line-height: 1.7;
+        font-weight: 400;
+        color: #828282;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    }
+
+    p a {
+        display: inline;
+        position: relative;
+        color: inherit;
+        border-bottom: solid 1px #ffa07f;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    a,
+    a:hover,
+    a:visited,
+    a:active,
+    a:link {
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    }
+
+    p a:active {
+        position: relative;
+        color: #FF6347;
+    }
+
+    p a:hover {
+        color: #FFFFFF;
+        background: #ffa07f;
+    }
+
+    p a:hover::after {
+        opacity: 0.2;
+    }
+
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    }
+
+    .form-control {
+        color: #db5246;
+    }
+
+    section {
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .clearfix::before,
+    .clearfix::after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix::after {
+        clear: both;
+    }
+
+    .clearfix {
+        zoom: 1;
+    }
+
+    .float_left {
+        float: left;
+    }
+
+    .float_right {
+        float: right;
+    }
+
+    .trans_200 {
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    .trans_300 {
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+
+    .trans_400 {
+        -webkit-transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+        -ms-transition: all 400ms ease;
+        -o-transition: all 400ms ease;
+        transition: all 400ms ease;
+    }
+
+    .trans_500 {
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .fill_height {
+        height: 100%;
+    }
+
+    .super_container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .prlx_parent {
+        overflow: hidden;
+    }
+
+    .prlx {
+        height: 130% !important;
+    }
+
+    .nopadding {
+        padding: 0px !important;
+    }
+
+    .button {
+        display: inline-block;
+        background: #0e8ce4;
+        border-radius: 5px;
+        height: 48px;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    .button a {
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        color: #FFFFFF;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    .viewed {
+        padding-top: 51px;
+        padding-bottom: 60px;
+        background: #eff6fa;
+    }
+
+    .bbb_viewed_title_container {
+        border-bottom: solid 1px #dadada;
+    }
+
+    .bbb_viewed_title {
+        margin-bottom: 14px;
+    }
+
+    .bbb_viewed_nav_container {
+        position: absolute;
+        right: -5px;
+        bottom: 14px;
+    }
+
+    .bbb_viewed_nav {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bbb_viewed_nav i {
+        color: #dadada;
+        font-size: 18px;
+        padding: 5px;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    .bbb_viewed_nav:hover i {
+        color: #606264;
+    }
+
+    .bbb_viewed_prev {
+        margin-right: 15px;
+    }
+
+    .bbb_viewed_slider_container {
+        padding-top: 50px;
+    }
+
+    .bbb_viewed_item {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 2px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .bbb_viewed_image {
+        width: 115px;
+        height: 115px;
+    }
+
+    .bbb_viewed_image img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .bbb_viewed_content {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .bbb_viewed_price {
+        font-size: 16px;
+        color: #000000;
+        font-weight: 500;
+    }
+
+    .bbb_viewed_item.discount .bbb_viewed_price {
+        color: #df3b3b;
+    }
+
+    .bbb_viewed_price span {
+        position: relative;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+        margin-left: 8px;
+    }
+
+    .bbb_viewed_price span::after {
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: -2px;
+        width: calc(100% + 4px);
+        height: 1px;
+        background: #8d8d8d;
+        content: '';
+    }
+
+    .bbb_viewed_name {
+        margin-top: 3px;
+    }
+
+    .bbb_viewed_name a {
+        font-size: 14px;
+        color: #000000;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    .bbb_viewed_name a:hover {
+        color: #0e8ce4;
+    }
+
+    .item_marks {
+        position: absolute;
+        top: 18px;
+        left: 18px;
+    }
+
+    .item_mark {
+        display: none;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .item_discount {
+        background: #df3b3b;
+        margin-right: 5px;
+    }
+
+    .item_new {
+        background: #0e8ce4;
+    }
+
+    .bbb_viewed_item.discount .item_discount {
+        display: inline-block;
+    }
+
+    .bbb_viewed_item.is_new .item_new {
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <div id="dtr-wrapper" class="clearfix">
+
+        <!-- Header
+============================================= -->
+        <header id="dtr-header-global" class="fixed-top">
+            <nav style="padding: 0 1rem;" class="navbar navbar-expand-lg navbar-dark dtr-menu">
+                <div class="container">
+
+                    <!-- light logo -->
+                    <a class="navbar-brand logo-light" href="#home"><img
+                            src="https://indlyf.co.in/assets/images/logo/logo.png" alt="logo"></a>
+                    <!-- dark logo -->
+                    <a class="navbar-brand logo-dark d-none" href="#home"><img
+                            src="https://indlyf.co.in/assets/images/logo/logo.png" alt="logo"></a>
+
+                    <!-- nav menu toggler-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- menu starts-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="dtr-scrollspy navbar-nav ml-auto">
+                            <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#products">Benefits</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#about">FAQs</a> </li>
+
+                            <!-- dropdown starts-->
+                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> Resources </a>
+                                <div class="dropdown-menu dropdown-animate" aria-labelledby="navbarDropdown"> <a
+                                        class="dropdown-item" href="#reviews">Natural Ingredients</a> <a
+                                        class="dropdown-item" href="#features">Products</a> <a class="dropdown-item"
+                                        href="#cta">Contact</a>
+                                </div>
+                            </li>
+                            <!-- dropdown ends-->
+
+                            <li class="nav-item"> <a class="nav-link" href="#blog">Success Stories</a> </li>
+                        </ul>
+                    </div>
+                    <!-- menu ends-->
+
+                    <!-- button here -->
+                    <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:+919997999330">+919997999330<span><i
+                                    class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
+                    <!-- button ends -->
+                </div>
+            </nav>
+        </header>
+        <!-- header ends
+================================================== -->
+
+        <!-- hero section starts
+================================================== -->
+        <section id="home" class="hero-section dtr-py-8 hero-default-bg bg-dark-grey">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- column 1 starts -->
+                    <div class="col-12 col-md-6 dtr-sm-mb-30px color-white">
+
+                        <!-- Heading -->
+                        <h1 class="dtr-mb-4 wow fadeInUp" data-wow-delay="0.4s">Premium Green Coffee Beans<br>
+                            100% Natural</h1>
+
+                        <!-- Text -->
+                        <p class="dtr-mb-4 text-size-md color-white-muted"> Green coffee beans contain the maximum
+                            chlorogenic acid content. Studies state the anti-obesity, anti-diabetic, anti-inflammatory,
+                            and anti-carcinogenic properties of chlorogenic acid.</p>
+
+                        <!-- list starts -->
+                        <ul class="dtr-list-checkmark dtr-mb-5 text-size-md color-white-muted">
+                            <li>
+                                <h6>Unroasted, high chlorogenic acid content.
+                                </h6>
+                            </li>
+                            <li>
+                                <h6>Potential aid for weight loss. </h6>
+                            </li>
+                            <li>
+                                <h6>Raw beans with health benefits.
+
+
+
+
+                                </h6>
+                            </li>
+                        </ul>
+                        <!-- list ends -->
+
+                    </div>
+                    <!-- column 1 ends -->
+
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="dtr-hero-form">
+
+                            <!-- form header starts -->
+                            <div class="dtr-form-head">
+                                <h4 class="text-center">Book Your Order Now</h4>
+                            </div>
+
+                            <!-- form body starts -->
+                            <div class="dtr-form-body">
+                                <div class="dtr-form dtr-submit-full">
+                                    <form id="contactform" name="submit-to-google-sheet" method="post">
+                                        <fieldset>
+                                            <p>
+                                                <input required name="Name" type="text" placeholder="Your Full Name">
+                                            </p>
+                                            <p>
+                                                <input required name="Number" class="number" type="text"
+                                                    placeholder="Phone or Mobile Number">
+                                            </p>
+                                            <p>
+                                                <input required name="Email" class="required email" type="email"
+                                                    placeholder="Your Email ID">
+                                            </p>
+                                            <p>
+                                                <select required name="Subject" class="dtr-select">
+                                                    <option value="">Select Your Package</option>
+                                                    <optgroup name="select" label="Green Coffee Beans">
+                                                        <option data-target="30" data-value="Beans"
+                                                            value="30 Days Course Rs. 1199">30 Days Course Rs. 1199
+                                                        </option>
+                                                        <option data-target="60" data-value="Beans"
+                                                            value="60 Days Course Rs. 2299">60 Days
+                                                            Course Rs. 2299
+                                                        </option>
+                                                        <option data-target="90" data-value="Beans"
+                                                            value="90 Days Course Rs. 3399">90 Days
+                                                            Course Rs. 3399
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="Green Coffee Extract">
+                                                        <option data-target="30" data-value="Extract"
+                                                            value="30 Days Course Rs. 1299">30 Days Course Rs. 1299
+                                                        </option>
+                                                        <option data-target="60" data-value="Extract"
+                                                            value="60 Days Course Rs. 2399">60 Days Course Rs. 2399
+                                                        </option>
+                                                        <option data-target="90" data-value="Extract"
+                                                            value="90 Days Course Rs. 3499">90 Days Course Rs. 3499
+                                                        </option>
+                                                    </optgroup>
+                                                </select>
+                                            </p>
+                                            <p>
+                                                <textarea required name="Address" id="address" type="text"
+                                                    class="required email"
+                                                    placeholder="Your Complete Address"></textarea>
+                                            </p>
+                                            <p class="antispam">Leave this empty: <br />
+                                                <input name="url" />
+                                            </p>
+
+                                            <button type="submit" class="dtr-btn-round dtr-btn-blue" id="orderBtn">
+                                                ORDER NOW</button>
+                                            <div id="result"></div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- form body ends -->
+
+                        </div>
+                    </div>
+                    <!-- column 2 ends -->
+
+                </div>
+            </div>
+        </section>
+        <!-- hero section starts
+================================================== -->
+
+        <!-- quickfeature section starts
+================================================== -->
+        <section id="quickfeatures" class="dtr-py-6">
+            <div class="container-fluid">
+                <div class="row text-center mb-5 justify-content-center">
+                    <a style="width: 100vw;" href="https://www.indlyf.co.in/products.html">
+
+                        <img width="100%" src="https://indlyf.co.in/assets/homepage_banner.jpg" alt="image">
+                    </a>
+                </div>
+
+                <div class="row text-center">
+
+                    <!-- column 1 starts -->
+                    <div class="col-12 col-md-4 dtr-sm-mb-30px wow fadeInUp" data-wow-delay="0.4s">
+
+                        <!-- Icon -->
+                        <!-- <img class="dtr-mb-4" src="assets/images/icon-multicolor-1.png" alt="icon"> -->
+                        <!-- <i class="fa-brands fa-pagelines"></i> -->
+                        <i class="fab fa-pagelines fa-5x mb-4"></i>
+
+                        <!-- Heading -->
+                        <h5 class="mb-3"> Weight Loss </h5>
+
+                        <!-- Text -->
+                        <p>Studies show that green coffee bean extract (GCBE) can help fight obesity by lowering the
+                            accumulation of body fat.</p>
+                    </div>
+                    <!-- column 1 ends -->
+
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-md-4 dtr-sm-mb-30px wow fadeInUp" data-wow-delay="0.4s">
+
+                        <!-- Icon -->
+                        <!-- <img class="dtr-mb-4" src="assets/images/icon-multicolor-2.png" alt="icon"> -->
+                        <i class="fas fa-prescription-bottle-alt fa-5x mb-4"></i>
+
+                        <!-- Heading -->
+                        <h5 class="mb-3"> Can Aid Diabetes Treatment</h5>
+
+                        <!-- Text -->
+                        <p>The chlorogenic acid in green coffee beans was found to affect blood glucose levels.</p>
+                    </div>
+                    <!-- column 2 ends -->
+
+                    <!-- column 3 starts -->
+                    <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+
+                        <!-- Icon -->
+                        <!-- <img class="dtr-mb-4" src="assets/images/icon-multicolor-3.png" alt="icon"> -->
+                        <i class="fas fa-running fa-5x mb-4"></i>
+
+                        <!-- Heading -->
+                        <h5 class="mb-3"> Regulate Blood Pressure</h5>
+
+                        <!-- Text -->
+                        <p>Chlorogenic acid inhibits the formation of active cortisol, which is a hormone known to
+                            increase blood pressure levels.</p>
+                    </div>
+                    <!-- column 3 ends -->
+
+                </div>
+
+                <div class="row text-center justify-content-center">
+                    <div class="col-12 col-md-4 wow fadeInUp">
+                        <!-- Icon -->
+                        <!-- <img class="dtr-mb-4" src="assets/images/icon-multicolor-3.png" alt="icon"> -->
+                        <i class="fas fa-running fa-5x mb-4"></i>
+
+
+                        <!-- Heading -->
+                        <h5 class="mb-3"> Offer Anti-Aging Benefits</h5>
+
+                        <!-- Text -->
+                        <p>Green coffee beans are replete with antioxidants and offer excellent anti-aging effects.</p>
+                    </div>
+
+                    <div class="col-12 col-md-4 wow fadeInUp">
+                        <!-- Icon -->
+                        <!-- <img class="dtr-mb-4" src="assets/images/icon-multicolor-3.png" alt="icon"> -->
+                        <i class="fas fa-fire-alt fa-5x mb-4"></i>
+
+                        <!-- Heading -->
+                        <h5 class="mb-3"> May Enhance Energy Levels
+                        </h5>
+
+                        <!-- Text -->
+                        <p>Green coffee beans do contain some caffeine. Caffeine is found to boost energy levels and
+                            even enhance athletic performance. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dtr-sticky-tabs-content">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h2>
+                                Our Products Are Licensed & Approved By
+                            </h2>
+                            <p>All our Green Coffee Beans Extract Products are FSSAI Certified, 100% Natural Organic and
+                                approved with a best Quality Assurance:
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/organic-logo.jpg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/veg-logo.jpg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/fssai-logo.jpg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/best-quality-logo.jpg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/clinical-tested-logo.jpg"
+                                        alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mb-3">
+                                    <img style="mix-blend-mode: multiply;"
+                                        src="https://indlyf.co.in/assets/images/all-img/fresh-logo.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- quickfeature section ends
+================================================== -->
+
+
+
+        <!-- features section starts
+================================================== -->
+        <section id="features" class="dtr-pt-7 dtr-pb-5 bg-white">
+            <div class="container">
+                <h2 class="text-center">Green Coffee Products / Courses</h2>
+                <!-- <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> -->
+                <div class="row mt-5">
+
+                    <!-- box 1 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="dtr-feature-box ">
+                            <!-- <span class="dtr-feature-box-icon">
+                        <i class="icon-sun2"></i>
+                    </span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product1.jpg" alt="">
+                            <h5>30 Days Course</h5>
+                            <p class="pack">Pack of 1</p>
+                            <p class="price">Rs. <s>1,799</s> 1,199/-</p>
+                            <a onclick="days_30('beans', '30')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 1 ends -->
+
+                    <!-- box 2 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="dtr-feature-box">
+                            <!-- <span class="dtr-feature-box-icon"><i
+                            class="icon-shopping-bag1"></i></span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product2.jpg" alt="">
+
+                            <h5>60 Days Course</h5>
+                            <p class="pack">Pack of 2</p>
+                            <p class="price">Rs. <s>3,598</s> 2,299/-</p>
+                            <a onclick="days_60('beans', '60')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 2 ends -->
+
+                    <!-- box 3 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="dtr-feature-box">
+                            <!-- <span class="dtr-feature-box-icon"><i
+                            class="icon-bookmark2"></i></span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product3.jpg" alt="">
+
+                            <h5>90 Days Course</h5>
+                            <p class="pack">Pack of 3</p>
+                            <p class="price">Rs. <s>5,397</s> 3,399/-</p>
+                            <a onclick="days_90('beans', '90')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 3 ends -->
+
+                    <!-- box 4 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="dtr-feature-box">
+                            <!-- <span class="dtr-feature-box-icon"><i
+                            class="icon-user-check1"></i></span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product4.jpg" alt="">
+
+                            <h5>30 Days Course</h5>
+                            <p class="pack">Pack of 1</p>
+                            <p class="price">Rs. <s>1,899</s> 1,299/-</p>
+                            <a onclick="days_30('extract', '30')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 4 ends -->
+
+                    <!-- box 5 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="dtr-feature-box">
+                            <!-- <span class="dtr-feature-box-icon"><i
+                            class="icon-sliders"></i></span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product5.jpg" alt="">
+
+                            <h5>60 Days Course</h5>
+                            <p class="pack">Pack of 2</p>
+                            <p class="price">Rs. <s>3,698</s> 2,399/-</p>
+                            <a onclick="days_60('extract', '60')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 5 ends -->
+
+                    <!-- box 6 starts -->
+                    <div class="col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="dtr-feature-box">
+                            <!-- <span class="dtr-feature-box-icon"><i
+                            class="icon-briefcase1"></i></span> -->
+                            <img class="mb-3" src="https://indlyf.co.in/assets/images/all-img/product6.jpg" alt="">
+
+                            <h5>90 Days Course</h5>
+                            <p class="pack">Pack of 3</p>
+                            <p class="price">Rs. <s>5,497</s> 3,499/-</p>
+                            <a onclick="days_90('extract', '90')" href="#more">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- box 6 ends -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- features section ends
+================================================== -->
+
+
+
+        <!-- sticky tabs starts
+================================================== -->
+        <section id="products" class="dtr-sticky-tabs-wrapper dtr-border-top">
+
+            <!-- tabs nav start -->
+            <div class="dtr-sticky-tabs-nav">
+                <nav class="dtr-scrollspy-tabs">
+                    <ul class="dtr-scrollspy nav justify-content-center dtr-sticky-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab1">
+                                <!-- <img src="assets/images/icon-heart-tab.png" alt="tab1"> -->
+                                <i style="font-size: 1.5rem;margin-right: 5px;" class="fas fa-weight"></i>
+                                Weight Loss
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab2">
+                                <!-- <img src="assets/images/icon-plane-tab.png" alt="tab2"> -->
+                                <i style="font-size: 1.5rem;margin-right: 5px;" class="fas fa-medkit"></i>
+
+                                Can Aid Diabetes Treatment
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab3">
+                                <!-- <img src="assets/images/icon-pet-tab.png" alt="tab3"> -->
+                                <i style="font-size: 1.5rem;margin-right: 5px;" class="fas fa-file-medical"></i>
+                                Regulate Blood Pressure
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab4">
+                                <!-- <img src="assets/images/icon-plane-tab.png" alt="tab2"> -->
+                                <i style="font-size: 1.5rem;margin-right: 5px;" class="fas fa-hand-holding-heart"></i>
+                                Offer Anti-Aging Benefits
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab5">
+                                <!-- <img src="assets/images/icon-pet-tab.png" alt="tab3"> -->
+                                <i style="font-size: 1.5rem;margin-right: 5px;" class="fas fa-battery-full"></i>
+                                May Enhance Energy Levels
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- tabs nav ends -->
+
+            <div data-target=".dtr-scrollspy-tabs">
+
+                <!-- tab 1 starts -->
+                <section id="tab1" class="dtr-sticky-tabs-section">
+                    <div class="dtr-sticky-tabs-content">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <!-- column 1 starts -->
+                                <div class="col-12 col-md-7 dtr-sm-mb-30px wow fadeInLeft" data-wow-delay="0.4s">
+                                    <img style="border-radius: 10px;" src="assets/images/weight-loss.jpg" alt="logo">
+                                </div>
+                                <!-- column 1 ends -->
+
+                                <!-- column 2 starts -->
+                                <div class="col-12 col-md-5 wow fadeInRight" data-wow-delay="0.4s">
+
+                                    <!-- Icon Image -->
+                                    <!-- <img src="assets/images/icon-heart.png" alt="logo" class="dtr-mb-4"> -->
+                                    <i class="fas fa-3x fa-weight mb-2"></i>
+
+
+                                    <!-- Heading -->
+                                    <h2 class="dtr-mb-4">Weight Loss
+                                    </h2>
+
+                                    <!-- Text -->
+                                    <p class="dtr-mb-5">Studies show that green coffee bean extract (GCBE) can help
+                                        fight obesity by lowering the accumulation of body fat. In obese mice that were
+                                        fed a high-fat diet, the green coffee bean extract had significantly lowered
+                                        body weight gain. </p>
+
+                                    <!-- button here -->
+                                    <!-- <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right"
+                                                    aria-hidden="true"></i></span> </a> </div> -->
+                                </div>
+                                <!-- column 2 ends -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tab 1 ends -->
+
+                <!-- tab 2 starts -->
+                <section id="tab2" class="dtr-sticky-tabs-section">
+                    <div class="dtr-sticky-tabs-content">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <!-- column 1 starts -->
+                                <div class="col-12 col-md-5 dtr-sm-mb-30px wow fadeInRight" data-wow-delay="0.4s">
+
+                                    <!-- Icon Image -->
+                                    <!-- <img src="assets/images/icon-plane.png" alt="logo" class="dtr-mb-4"> -->
+                                    <i class="fas fa-medkit mb-2 fa-3x"></i>
+
+                                    <!-- Heading -->
+                                    <h2 class="dtr-mb-4">Can Aid Diabetes Treatment</h2>
+
+                                    <!-- Text -->
+                                    <p class="dtr-mb-5">The chlorogenic acid in green coffee beans was found to affect
+                                        blood glucose levels. Daily intake of three to four cups of decaffeinated coffee
+                                        with high chlorogenic acid content was found to reduce the risk of type 2
+                                        diabetes by 30%.</p>
+
+                                    <!-- button here -->
+                                    <!-- <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right"
+                                                    aria-hidden="true"></i></span> </a> </div> -->
+                                </div>
+                                <!-- column 1 ends -->
+
+                                <!-- column 2 starts -->
+                                <div class="col-12 col-md-7 text-right wow fadeInLeft" data-wow-delay="0.4s"> <img
+                                        src="assets/images/sugar-levels.jpg" style="border-radius: 10px;" alt="logo">
+                                </div>
+                                <!-- column 2 ends -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tab 2 ends -->
+
+                <!-- tab 3 starts -->
+                <section id="tab3" class="dtr-sticky-tabs-section">
+                    <div class="dtr-sticky-tabs-content">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <!-- column 1 starts -->
+                                <div class="col-12 col-md-7 dtr-sm-mb-30px wow fadeInLeft" data-wow-delay="0.4s"> <img
+                                        src="assets/images/blood-pressure.jpg" style="border-radius: 10px;" alt="logo">
+                                </div>
+                                <!-- column 1 ends -->
+
+                                <!-- column 2 starts -->
+                                <div class="col-12 col-md-5 wow fadeInRight" data-wow-delay="0.4s">
+
+                                    <!-- Icon Image -->
+                                    <!-- <img src="assets/images/icon-pet.png" alt="logo" class="dtr-mb-4"> -->
+                                    <i class="fas fa-file-medical fa-3x mb-2"></i>
+
+                                    <!-- Heading -->
+                                    <h2 class="dtr-mb-4">Regulate Blood Pressure</h2>
+
+                                    <!-- Text -->
+                                    <p class="dtr-mb-5">Chlorogenic acid inhibits the formation of active cortisol,
+                                        which is a hormone known to increase blood pressure levels. Consumption of green
+                                        coffee also improves arterial elasticity, thereby lowering blood pressure
+                                        levels.</p>
+
+                                    <!-- button here -->
+                                    <!-- <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right"
+                                                    aria-hidden="true"></i></span> </a> </div> -->
+                                </div>
+                                <!-- column 2 ends -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tab 3 ends -->
+
+                <!-- tab 4 starts -->
+                <section id="tab4" class="dtr-sticky-tabs-section">
+                    <div class="dtr-sticky-tabs-content">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <!-- column 1 starts -->
+                                <div class="col-12 col-md-5 dtr-sm-mb-30px wow fadeInRight" data-wow-delay="0.4s">
+
+                                    <!-- Icon Image -->
+                                    <!-- <img src="assets/images/icon-plane.png" alt="logo" class="dtr-mb-4"> -->
+                                    <i class="fas fa-hand-holding-heart fa-3x mb-2"></i>
+
+                                    <!-- Heading -->
+                                    <h2 class="dtr-mb-4">Offer Anti-Aging Benefits</h2>
+
+                                    <!-- Text -->
+                                    <p class="dtr-mb-5">Green coffee beans are replete with antioxidants and offer
+                                        excellent anti-aging effects. Ingestion of the beans decreased skin dryness and
+                                        transepidermal water loss and improved skin surface pH levels. Consuming
+                                        chlorogenic acid for eight weeks also improved skin hydration.</p>
+
+                                    <!-- button here -->
+                                    <!-- <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right"
+                                                    aria-hidden="true"></i></span> </a> </div> -->
+                                </div>
+                                <!-- column 1 ends -->
+
+                                <!-- column 2 starts -->
+                                <div class="col-12 col-md-7 text-right wow fadeInLeft" data-wow-delay="0.4s"> <img
+                                        src="assets/images/anti-aging.jpg" style="border-radius: 10px;" alt="logo">
+                                </div>
+                                <!-- column 2 ends -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tab 4 ends -->
+
+                <!-- tab 5 starts -->
+                <section id="tab5" class="dtr-sticky-tabs-section">
+                    <div class="dtr-sticky-tabs-content">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <!-- column 1 starts -->
+                                <div class="col-12 col-md-7 dtr-sm-mb-30px wow fadeInLeft" data-wow-delay="0.4s"> <img
+                                        src="assets/images/energy-level.jpg" style="border-radius: 10px;" alt="logo">
+                                </div>
+                                <!-- column 1 ends -->
+
+                                <!-- column 2 starts -->
+                                <div class="col-12 col-md-5 wow fadeInRight" data-wow-delay="0.4s">
+
+                                    <!-- Icon Image -->
+                                    <!-- <img src="assets/images/icon-pet.png" alt="logo" class="dtr-mb-4"> -->
+                                    <i class="fas fa-battery-full fa-3x mb-2"></i>
+
+
+                                    <!-- Heading -->
+                                    <h2 class="dtr-mb-4">May Enhance Energy Levels</h2>
+
+                                    <!-- Text -->
+                                    <p class="dtr-mb-5">Green coffee beans do contain some caffeine. Caffeine is found
+                                        to boost energy levels and even enhance athletic performance. Sources suggest
+                                        that caffeine, in general, can improve mental health by boosting mood,
+                                        attention, memory, and alertness.</p>
+
+                                    <!-- button here -->
+                                    <!-- <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right"
+                                                    aria-hidden="true"></i></span> </a> </div> -->
+                                </div>
+                                <!-- column 2 ends -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- tab 5 ends -->
+
+            </div>
+        </section>
+        <!-- sticky tabs starts
+================================================== -->
+
+        <!-- about starts
+================================================== -->
+        <section id="about" class="bg-light-blue dtr-py-7">
+            <div class="container">
+                <div class="row">
+
+
+
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-md-12 wow fadeInRight" data-wow-delay="0.4s">
+                        <!-- <img src="assets/images/img-abt1.jpg" alt="image" class="dtr-rounded dtr-mb-5"> -->
+                        <p class="text-size-xl dtr-mb-4 text-center">Frequently Asked Questions</p>
+
+                        <!-- accordion starts -->
+                        <div class="dtr-accordion accordion" id="home-accordion">
+
+                            <!-- accordion tab 1 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Precisely What is Green Coffee Extract? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Green coffee extract is a ground up powder made from
+                                        un-roasted green coffee beans. In capsule form, it can be used for weight
+                                        reduction or as a health and wellness supplement.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 1 ends -->
+
+                            <!-- accordion tab 2 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo"> Is Green Coffee Extract Safe? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Research studies have tested the safety of green coffee
+                                        extract and there are no common severe adverse reactions from green coffee
+                                        supplements. If you are pregnant or nursing, you should talk to your doctor
+                                        prior to taking a green coffee supplement.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 2 ends -->
+
+                            <!-- accordion tab 3 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree"> What are The Advantages of Green Coffee
+                                            Extract? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> We’ve outlined many benefits of green coffee bean extract,
+                                        but here are a few – just to name a few: weight reduction, improved heart
+                                        health, improved skin health, and better memory.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 3 ends -->
+                            <!-- accordion tab 4 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            Just how long does it take to see these benefits?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body">
+                                        While this varies from person to person, most people see results in as little as
+                                        a few days. This is due to the powerful fat burning properties along with the
+                                        high degrees of antioxidants that can be found in green coffee beans.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 4 ends -->
+
+                            <!-- accordion tab 5 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive"> I want to Slim Down. Why can't I just Drink
+                                            Coffee? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Unroasted coffee beans contain a powerful fat burning
+                                        chemical called “Chlorogenic Acid.” This acid is highly concentrated in
+                                        unroasted coffee beans but most of the acid dissipates when green coffee beans
+                                        are roasted. Therefore, it is highly unlikely you will notice any noticeable
+                                        results by drinking your normal cup of joe. The only way you can observe results
+                                        is to take a green coffee supplement.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 5 ends -->
+
+                            <!-- accordion tab 6 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix"> Do I need to diet and exercise while taking
+                                            green coffee supplements? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> For obvious reasons, experts recommend you adhere to a
+                                        proper diet and workout regularly. Doing so will help deliver you the best
+                                        possible results. However, the incredible power of green coffee does take a bit
+                                        of the pressure off of you, so you do not have to put yourself through such a
+                                        strict diet or spend hours on a treadmill.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 6 ends -->
+
+                            <!-- accordion tab 7 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven"> Just What is the recommended Green Coffee
+                                            dosage to burn fat? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> The recommended dosage for Green Coffee Extract is 800mg.
+                                        Take 800mg about 30 minutes before mealtime and is highly recommended to be
+                                        taken with a full glass of water for the best results. If you are not seeing the
+                                        results you desire, you may increase the mg slightly over time.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 7 ends -->
+
+                            <!-- accordion tab 8 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseEight" aria-expanded="false"
+                                            aria-controls="collapseEight"> Will the caffeine from the coffee beans make
+                                            me feel jittery? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseEight" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> This answer depends on your body type. Most green coffee
+                                        supplements only contain about 20mg of caffeine per dose. This is a relatively
+                                        small dose considering a regular cup of coffee commonly has over 100mg of
+                                        caffeine. There is a small chance you may experience a jittery feeling while
+                                        taking these supplements.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 8 ends -->
+
+                            <!-- accordion tab 9 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseNine" aria-expanded="false"
+                                            aria-controls="collapseNine"> Does Green Coffee have a bitter taste?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseNine" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Yes, natural green coffee does have a bitter taste if
+                                        ingested in the form of powder or raw. That’s why it is strongly advised to be
+                                        taken in capsule form.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 9 ends -->
+
+
+                            <!-- accordion tab 10 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTen" aria-expanded="false"
+                                            aria-controls="collapseTen"> What is Chlorogenic Acid? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTen" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Chlorogenic Acid is the main component in Green Coffee Beans
+                                        that assists you lose weight. Chlorogenic Acid helps the body decrease the
+                                        release of glucose in the body. While it is slowing down the release of sugars
+                                        it is also boosting your metabolism through a process of thermogensis. This is
+                                        essentially burning away fat that is stored as well as blocking the formulation
+                                        of new fat cells. These two processes combined is what makes Green Coffee
+                                        Extract such a powerful weight loss pill.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 10 ends -->
+
+                            <!-- accordion tab 11 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseEleven" aria-expanded="false"
+                                            aria-controls="collapseEleven"> Is there an age restriction for taking green
+                                            coffee bean extract? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseEleven" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Persons at the get older of 18 or older are ideally
+                                        satisfied for Environment-friendly Coffee Bean Extraction.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 11 ends -->
+
+                            <!-- accordion tab 12 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwelve" aria-expanded="false"
+                                            aria-controls="collapseTwelve"> Can the supplement be taken together with
+                                            other supplements and supplements? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwelve" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Yes, there is normally no complication in doing this.
+                                        However, users are encouraged to talk with an expert healthcare service provider
+                                        to ensure there are no unfavorable edge impacts.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 12 ends -->
+
+
+                            <!-- accordion tab 13 starts -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="dtr-mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThirteen" aria-expanded="false"
+                                            aria-controls="collapseThirteen"> How do I place order? </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThirteen" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#home-accordion">
+                                    <div class="card-body"> Orders can be placed 24/7 via our website. You can also
+                                        place orders by phone at +91 9997999330 and Email or by filling our Order Form.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion tab 13 ends -->
+
+                        </div>
+                        <!-- accordion ends -->
+
+                    </div>
+                    <!-- column 2 ends -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- about ends
+================================================== -->
+
+        <!-- testimonial starts
+================================================== -->
+        <section id="reviews" class="dtr-py-7 bg-grey">
+            <h2 class="text-center">Natural Ingredients</h2>
+            <p class="text-center">In Green Coffee, it has natural ingredients:</p>
+
+            <!-- swiper starts -->
+            <div class="swiper-container dtr-testimonial-carousel dtr-swiper-has-arrows mt-5">
+                <div class="swiper-wrapper">
+
+                    <!-- slide 1 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/green-tea-extract.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Green Tea Extract</h6>
+                                    <!-- <p class="dtr-mb-0">Travel Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            Powerful fat burner loaded with beneficial antioxidants and caffeine, increase metabolism in
+                            the body.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 1 ends -->
+
+                    <!-- slide 2 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/garcinia-cambogia.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Garcinia Cambogia</h6>
+                                    <!-- <p class="dtr-mb-0">Health Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            Helps boost fat-burning, feel less hungry, help in keeping blood sugar and cholesterol
+                            levels normal.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 2 ends -->
+
+                    <!-- slide 3 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/barley-grass.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Barley Grass</h6>
+                                    <!-- <p class="dtr-mb-0">Pet Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            Prevention and treatment of cancer, strengthening of immune system, cleansing and
+                            detoxification of the body.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 3 ends -->
+
+                    <!-- slide 4 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/organic-moringa.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Moringa Powder</h6>
+                                    <!-- <p class="dtr-mb-0">Home Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            Great for boosting energy and stamina, because it contains a lot of vitamins, minerals and
+                            anti-oxidants.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 4 ends -->
+
+                    <!-- slide 5 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/chlorogenic-acid-level.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Chlorogenic Acid</h6>
+                                    <!-- <p class="dtr-mb-0">Home Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            Powerful fat burner loaded with beneficial antioxidants and caffeine, increase metabolism in
+                            the body.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 5 ends -->
+
+                    <!-- slide 6 starts -->
+                    <div class="swiper-slide">
+                        <div class="dtr-testimonial-wrapper">
+                            <div class="d-flex align-items-center dtr-mb-4">
+                                <!-- image-->
+                                <img src="assets/images/stevia-leaf-extract.jpg" width="100" height="100" alt="image"
+                                    class="rounded-circle dtr-mr-3">
+                                <!-- client info -->
+                                <div class="dtr-mr-5">
+                                    <h6 class="dtr-mb-0">Stevia Leaf Extract</h6>
+                                    <!-- <p class="dtr-mb-0">Home Insurance</p> -->
+                                </div>
+                                <!-- <span class="dtr-5-stars ml-auto"></span> -->
+                            </div>
+                            <!-- review text -->
+                            100% natural, zero calorie sweetener with a number of health benefits
+                            that have been confirmed in human studies.
+                            <!-- review text ends -->
+                        </div>
+                    </div>
+                    <!-- slide 6 ends -->
+
+                </div>
+                <!-- Arrows -->
+                <div class="swiper-button-next dtr-swiper-next"></div>
+                <div class="swiper-button-prev dtr-swiper-prev"></div>
+            </div>
+            <!-- Swiper ends -->
+
+        </section>
+        <!-- testimonial ends
+================================================== -->
+
+        <!-- cta section starts
+================================================== -->
+        <section id="cta" class="dtr-pt-7 dtr-pb-5 dtr-sm-mb-30px bg-dark-blue color-white">
+            <div class="container">
+                <div class="row">
+
+                    <!-- column 1 starts -->
+                    <div class="col-12 col-lg-8 wow fadeInUp" data-wow-delay="0.4s">
+                        <h2>The Fastest Way To Loss Weight <span class="color-blue">In Natural Way!</span></h2>
+                    </div>
+                    <!-- column 1 ends -->
+
+                    <!-- column 2 starts -->
+                    <!-- <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <h2>The Fastest Way To Loss Weight In Natural Way!</h2> -->
+                    <!-- <p class="text-size-xl dtr-mb-4">Everybody Deserves!</p> -->
+                    <!-- </div> -->
+                    <!-- column 2 ends -->
+
+                    <!-- column 3 starts -->
+                    <div class="col-12 col-lg-4 text-right wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="dtr-btn"> <a href="tel:+919997999330">Contact us<span><i class="icon-envelope"
+                                        aria-hidden="true"></i></span> </a> </div>
+                    </div>
+                    <!-- column 3 ends -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- cta section ends
+================================================== -->
+
+        <!-- blog section starts
+================================================== -->
+        <section id="blog" class="dtr-py-7 bg-white">
+            <div class="container">
+                <h2 class="text-center">Story of Success</h2>
+                <p class="text-center">The Fastest Way To Loss Weight In Natural Way!</p>
+
+                <!-- blog swiper starts -->
+                <div class="swiper-container dtr-swiper-has-arrows dtr-blog-carousel mt-5">
+                    <div class="swiper-wrapper">
+
+                        <!-- slide 1 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/neha.jpg" alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Travel</span> -->
+                                        <h5><a href="#">The Importance of Travel Insurance</a></h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Neha Singh</li>
+                                            <li class="dtr-meta-date">Banglore</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 1 ends -->
+
+                        <!-- slide 2 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/aakriti.jpg"
+                                        alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Pets</span> -->
+                                        <h5><a href="#">Why You Need Insurance for Your Pet</a></h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Aakriti Jain</li>
+                                            <li class="dtr-meta-date">Mumbai</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 2 ends -->
+
+                        <!-- slide 3 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/shivani.jpg"
+                                        alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Health</span> -->
+                                        <h5><a href="#">Benefits of Buying Health Insurance</a></h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Shivani Rajput</li>
+                                            <li class="dtr-meta-date">Agra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 3 ends -->
+
+                        <!-- slide 4 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/vanshika.jpg"
+                                        alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Home Insurance</span> -->
+                                        <h5><a href="#" class="dtr-scroll-link">Tips to Reduce Your Home Insurance
+                                                Cost</a></h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Vanshika Singhal</li>
+                                            <li class="dtr-meta-date">Ujjain</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 4 ends -->
+
+                        <!-- slide 5 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/sapna.jpg" alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Home Insurance</span> -->
+                                        <h5>
+                                            <a href="#" class="dtr-scroll-link">Tips to Reduce Your Home Insurance
+                                                Cost</a>
+                                        </h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Sapna</li>
+                                            <li class="dtr-meta-date">New Delhi</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 5 ends -->
+
+                        <!-- slide 6 starts -->
+                        <div class="swiper-slide">
+                            <div class="dtr-post-carousel-item">
+                                <div class="dtr-post-carousel-content"> <img src="assets/images/kavita.jpg" alt="image">
+                                    <div class="dtr-post-carousel-entry-content">
+                                        <!-- <span class="dtr-category">Home Insurance</span> -->
+                                        <h5><a href="#" class="dtr-scroll-link">Tips to Reduce Your Home Insurance
+                                                Cost</a></h5>
+                                    </div>
+                                    <div class="dtr-post-carousel-meta">
+                                        <ul class="dtr-meta">
+                                            <li class="dtr-meta-author">Kavita Batra</li>
+                                            <li class="dtr-meta-date">Chandigarh</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 6 ends -->
+
+                    </div>
+                    <!-- Arrows -->
+                    <div class="swiper-button-next dtr-swiper-next"></div>
+                    <div class="swiper-button-prev dtr-swiper-prev"></div>
+                </div>
+                <!-- Swiper ends -->
+
+            </div>
+        </section>
+
+        <!-- blog section ends
+================================================== -->
+
+        <!-- footer starts
+================================================== -->
+
+        <footer id="dtr-footer-global" class="bg-dark-grey color-white">
+            <div class="container">
+                <!-- <p>
+
+                    CALL NOW FOR ORDER! : &nbsp; <a href="tel:+919997999330">+919997999330</a>
+                </p> -->
+                <!-- footer columns row starts -->
+                <div class="row">
+
+                    <!-- column 1 starts -->
+                    <div class="col-12 col-sm-4 col-lg-6 dtr-sm-mb-30px">
+                        <p><img src="assets/images/indlyf_logo.png" alt="image" class="wow pulse" data-wow-delay="0.4s">
+                        </p>
+                        <!-- <p class="dtr-rounded-alert wow fadeInUp" data-wow-delay="0.6s">4.5 out of 5 based on <span
+                                class="color-theme">2450 reviews</span></p> -->
+                    </div>
+                    <!-- column 1 ends -->
+
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-sm-6 col-lg-2 dtr-sm-mb-30px wow fadeInRight" data-wow-delay="0.4s">
+                        <h6>About Green Coffee</h6>
+                        <ul class="dtr-list">
+                            <li><a href="#">What is Green Coffee Beans</a></li>
+                            <li><a href="#">How it Works</a></li>
+                            <li><a href="#">Benefits of Green Coffee Extract</a></li>
+                            <li><a href="#">Green Coffee Products</a></li>
+                        </ul>
+                    </div>
+                    <!-- column 2 ends -->
+
+                    <!-- column 3 starts -->
+                    <div class="col-12 col-sm-6 col-lg-2 dtr-sm-mb-30px wow fadeInRight" data-wow-delay="0.6s">
+                        <h6>Company</h6>
+                        <ul class="dtr-list">
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Shipping & Return Policy</a></li>
+                            <li><a href="#">Cancellation Policy</a></li>
+                        </ul>
+                    </div>
+                    <!-- column 3 ends -->
+
+                    <!-- column 4 starts -->
+                    <div class="col-12 col-sm-6 col-lg-2 wow fadeInRight" data-wow-delay="0.8s">
+                        <h6>Contacts</h6>
+                        <ul class="dtr-list">
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Our Mission & Vision</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- column 4 ends -->
+
+                </div>
+                <!-- footer columns row ends -->
+
+                <!-- copyright row starts -->
+                <div class="row dtr-mt-7">
+                    <div class="col-12 col-md-6"> &copy; Copyright 2024. Indlyf Pvt. Ltd. </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="dtr-social-list text-right color-muted-white">
+                            <li><a href="https://www.facebook.com/INSLYF/" class="dtr-facebook"></a></li>
+                            <!-- <li><a href="#" class="dtr-twitter"></a></li>
+                            <li><a href="#" class="dtr-linkedin"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- copyright row ends -->
+
+            </div>
+        </footer>
+        <!-- footer ends
+================================================== -->
+
+    </div>
+    <!-- #dtr-wrapper ends -->
+    <!-- JS FILES -->
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.easing.js" type="text/javascript"></script>
+    <script src="assets/js/swiper.min.js" type="text/javascript"></script>
+    <script src="assets/js/venobox.min.js" type="text/javascript"></script>
+    <script src="assets/js/select2.min.js" type="text/javascript"></script>
+    <!-- <script src="assets/js/jquery.validate.min.js" type="text/javascript"></script> -->
+    <script src="assets/js/jquery.form.js" type="text/javascript"></script>
+    <script src="assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> -->
+
+
+    <script>
+        $(document).ready(function () {
+
+
+            if ($('.bbb_viewed_slider').length) {
+                var viewedSlider = $('.bbb_viewed_slider');
+
+                viewedSlider.owlCarousel(
+                    {
+                        loop: true,
+                        margin: 30,
+                        autoplay: true,
+                        autoplayTimeout: 6000,
+                        nav: false,
+                        dots: false,
+                        responsive:
+                        {
+                            0: { items: 1 },
+                            575: { items: 2 },
+                            768: { items: 3 },
+                            991: { items: 4 },
+                            1199: { items: 6 }
+                        }
+                    });
+
+                if ($('.bbb_viewed_prev').length) {
+                    var prev = $('.bbb_viewed_prev');
+                    prev.on('click', function () {
+                        viewedSlider.trigger('prev.owl.carousel');
+                    });
+                }
+
+                if ($('.bbb_viewed_next').length) {
+                    var next = $('.bbb_viewed_next');
+                    next.on('click', function () {
+                        viewedSlider.trigger('next.owl.carousel');
+                    });
+                }
+            }
+
+
+        });
+    </script>
+
+    <script>
+        // wow animations
+        if ($(window).outerWidth() >= 767) {
+            new WOW().init({
+                mobile: false,
+            });
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbynmlkgtbQL1NhRX8-XhR4pnT5g6O9_5uB92r6dNr95Gmbezz-xtwY2AXZ4SwOdQeykAQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const orderBtn = document.getElementById('orderBtn')
+
+        form.addEventListener('submit', e => {
+
+            e.preventDefault()
+            orderBtn.innerHTML = 'Loading...'
+            orderBtn.disabled = true
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    console.log('Success!', response)
+                    orderBtn.disabled = false
+                    orderBtn.innerHTML = 'Order Now'
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+
+        })
+
+    </script>
+
+</body>
+
+</html>
